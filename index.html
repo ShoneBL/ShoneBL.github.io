@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SatBUS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/mq.css">
+  <link rel="shortcut icon" href="images/fav.png">
+</head>
+
+<body>
+
+  <!-- Hero section image -->
+  <div class="hero-img"></div>
+
+  <!-- Navbar -->
+  <header id="header">
+    <a href="#" class="logo"><img src="images/logo_alt.png" height="50" alt="logo" id="logo-img"></a>
+
+    <div id="mobile_nav_container">
+      <img src="images/menu.svg" alt="Menu" class="mobile-menu-toggle" id="mobile-menu-toggle">
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#panel" class="active">Panel</a></li>
+        <li><a href="#info">Informacije</a></li>
+        <li><a href="#m_app">Preuzmi</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Mobile navbar menu -->
+  <div class="mobile-menu" style="display:none;">
+    <div class="nav-item"><a href="#panel" class="active">Panel</a></div>
+    <div class="nav-item"><a href="#info">Informacije</a></div>
+    <div class="nav-item"><a href="#m_app">Preuzmi</a></div>
+    <div class="nav-item"><a href="#contact">Kontakt</a></div>
+  </div>
+
+
+  <!-- Content wrapper -->
+  <div class="wrapper">
+    <section class="hero">
+      <div class="left-section">
+        <h1 class="title">Prvo pametno <br> stajalište u gradu</h1>
+        <p class="subtitle">
+          Sistem za praćenje javnog prevoza<br />
+          u realnom vremenu.
+        </p>
+
+        <div class="center-mobile">
+          <a  href="#panel" class="button-procitaj-vise">Saznaj više</a>
+          <a  href="#panel" class="button-outline">Preuzmi PDF</a>        
+        </div>
+
+      </div>
+      <div class="right-section">
+        <img class="satbustelefoni" src="images/satbus-phones.png" alt="satbus telefon" />
+      </div>
+    </section>
+    <section class="panel-info page" id="panel">
+      <div class="left-section">
+        <img class="panel-image" src="images/satbus-reklama.png" alt="panel-image" />
+      </div>
+      <div class="right-section">
+        <h1 class="title">
+          Saznajte vrijeme dolaska autobusa na vaše stajalište
+        </h1>
+        <p class="subtitle">
+          SatBUS Banja Luka sistem je kompletno prilagođen za korištenje putem
+          Android, iOS ili Huawei uređaja.
+        </p>
+        <ul class="feature_list_panel">
+          <div class="feature">
+            <img src="images/ic_prikaz.png" />
+            <div>
+              <h3>PRIKAZ LINIJA</h3>
+              <p>Prikaz svih linija i stajališta javnog prevoza.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <img src="images/ic_podaci.png" />
+            <div>
+              <h3>PODACI U REALNOM VREMENU</h3>
+              <p>Omogućava uvid u lokacije autobusa.</p>
+            </div>
+          </div>
+
+          <div class="feature">
+            <img src="images/ic_red_voznje.png" />
+            <div>
+              <h3>RED VOŽNJE</h3>
+              <p>Omogućava brz uvid u vremena polazaka javnog prevoza.</p>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </section>
+    <section class="mobile-info page" id="info">
+      <h1 class="title">
+        Informacije o javnom prevozu sa bilo koje lokacije
+      </h1>
+      <p class="subtitle">
+        Građani uvijek imaju način da ostanu informisani o javnom saobraćaju.
+      </p>
+      <img class="phones-image" src="images/telefoni.png" alt="telefoni" />
+    </section>
+    <section class="mobile-app page" id="m_app">
+      <div class="left-section">
+        <h1 class="title">Brz i jednostavan pregled</h1>
+        <p class="subtitle">
+          SatBUS sistem omogućava jednostavan prikaz svih potrebnih
+          informacija o javnom saobraćaju.
+        </p>
+        <img class="girl" src="images/girl.png" alt="telefoni" />
+      </div>
+      <div class="right-section">
+        <img class="girl" src="images/uredjaji-app.png" alt="telefoni" />
+        <h1 class="title">
+          Dostupno svima
+        </h1>
+        <p class="subtitle">
+          Dizajnirali smo našu platformu za rad na bilo kojem uređaju koji
+          naši korisnici mogu imati, bilo da se radi o iPhoneu, Androidu ili
+          Tabletu.
+        </p>
+      </div>
+    </section>
+    <section class="contact page" id="contact">
+      <div class="title">Kontakt</div>
+
+      <div class="flex-container">
+        <div class="flex-item">
+          <h1>Satwork d.o.o. Banjaluka, BiH</h1>
+          <p><strong>Adresa:</strong> Bulevar vojvode Stepe Stepanovića 132, 78000 Banja Luka, RS/BiH</p>
+          <br>
+          <h4>Centrala</h4>
+          <p><strong>Tel: </strong> +387 51 233 000</p>
+          <p><strong>Fax: </strong> +387 51 233 009</p>
+          <p><strong>E-mail: </strong> info@satwork.net</p>
+          <br>
+
+          <h4>Podrška</h4>
+          <p><strong>Tel: </strong> +387 51 233 005</p>
+          <p><strong>Fax: </strong> +387 65 700 905</p>
+          <p><strong>E-mail: </strong> podrska@satwork.net</p>
+          <br>
+
+          <h4>Prodaja</h4>
+          <p><strong>Tel: </strong> +387 51 233 001</p>
+          <p><strong>Fax: </strong> +387 66 377 377, +387 66 111 911</p>
+          <p><strong>E-mail: </strong> prodaja@satwork.net</p>
+          <br>
+
+
+
+        </div>
+        <div class="flex-item">
+          <img src="images/satwork-loc.jpg" alt="" style="width:100%;">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer  -->
+  <footer>
+    <p>2005 - 2022 © Satwork. Sva prava zadržana.</p>
+  </footer>
+
+  <!-- JavaScript -->
+<script src="js/app.js"></script>
+</body>
+</html>

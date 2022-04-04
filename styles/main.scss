@@ -1,0 +1,259 @@
+$purple: rgb(73, 46, 97);
+$dark-purple: rgb(45, 25, 70);
+
+* {
+  font-family: "Barlow", sans-serif;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav {
+  position: unset;
+  right: 0;
+  top: 0;
+  display: block;
+  width: auto;
+  height: auto;
+  text-transform: uppercase;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+
+    a {
+      color: white;
+      padding: 0.5em;
+      display: block;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.title {
+  color: $purple;
+  font-size: 5rem;
+}
+
+.subtitle {
+  color: gray;
+  font-size: 30px;
+}
+
+h3{
+    color: $purple;
+}
+
+p{
+    color: gray;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../images/shape.png");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  
+
+  .left-section {
+    margin-left: 40px;
+    width: 100%;
+
+    .button-procitaj-vise {
+      margin-top: 100px;
+      background-color: $purple; /* Green */
+      border: none;
+      border-radius: 32px;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      text-transform: uppercase;
+
+      &:hover {
+        background-color: $dark-purple; /* Green */
+        color: white;
+        cursor: pointer;
+      }
+    }
+  }
+  .right-section {
+    margin-right: 40px;
+    width: 100%;
+
+    .preuzmi-pdf {
+      float: right;
+      font-size: 20px;
+
+      &:hover {
+        color: $dark-purple;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+
+  svg {
+    width: 20em;
+    margin-top: -0.6em;
+    cursor: pointer;
+  }
+}
+
+h1 {
+  font-size: 5rem;
+  margin-top: 2em;
+  line-height: 5rem;
+}
+
+.subhead {
+  font-size: 2rem;
+  color: gray;
+}
+
+section.hero {
+  height: 90vh;
+}
+
+.satbustelefoni {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.hero-img {
+  left: unset;
+  right: 0;
+  width: 50%;
+  margin-top: -100px;
+}
+
+.panel-info {
+  display: flex;
+  justify-content: space-between;
+  background: url("../images/shape-panel.png");
+  background-repeat: no-repeat;
+
+  .phones-image {
+    background-color: aqua;
+  }
+
+  .left-section {
+    margin-left: 40px;
+    display: flex;
+    align-items: flex-end;
+    .panel-image {
+    }
+  }
+
+  .right-section {
+    margin-right: 40px;
+    width: 100%;
+    text-align: right;
+
+    .feature {
+      display: flex;
+
+      img {
+        margin-right: 20px;
+        margin-top: 10px;
+      }
+
+      div {
+        text-align: left;
+      }
+
+      h3 {
+        font-size: 24px;
+      }
+
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+.mobile-info {
+  margin: 40px;
+  display: block;
+
+  .phones-image {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 50px;
+  }
+}
+
+.mobile-app {
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: 100%;
+  }
+  .left-section {
+    width: 100%;
+    margin: 0;
+    h1,p {
+      margin: 40px;
+    }
+    img{
+       
+    }
+  }
+  .right-section {
+    width: 100%;
+
+    h1,p {
+       margin: 40px;
+      }
+    img {
+      margin-top: 50px;
+    }
+  }
+}
+
+.kontakt{
+    
+    height: auto;
+    background-color: $purple;
+
+    p{
+        text-align: center;
+        margin: 0;
+        padding: 40px;
+        align-self: flex-end;
+    }
+}
+
